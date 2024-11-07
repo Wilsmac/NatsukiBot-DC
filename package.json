@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "elrebelde21",
+  "author": "Wilsmac",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.7.1",
