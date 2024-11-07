@@ -12,7 +12,7 @@ global.botToken = "TU_TOKEN_AQUI"; // Reemplaza 'TU_TOKEN_AQUI' con el token de 
 //Sacar tu token aqui: https://discord.com/developers/applications
 
 //---------[ NOMBRE/INFO ]---------
-global.wm = "SkyBot" //Cambiar el nombre por el nombre que desee para tu bot :)
+global.wm = "NatsukiBot" //Cambiar el nombre por el nombre que desee para tu bot :)
 
 //---------[ FECHA/IDIOMAS ]---------
 global.place = 'America/Bogota' // Aquí puedes encontrar tu ubicación https://momentjs.com/timezone/
