@@ -128,7 +128,7 @@ if (welcomeChannel) {
 const avatarUrl = member.user.displayAvatarURL({ dynamic: true, size: 1024 });
             const imgWel1 = 'https://qu.ax/yqlE.jpg'; //Imagen te salen si el usuarios no tiene foto. pueden cambiar la imágen por otras, como gusten.
             const totalMembers = member.guild.memberCount;
-            const textt = `*╭┈⊰* ${member.guild.name} *⊰┈ ✦*\n┃✨ BIENVENIDO(A)!!\n┃💖 <@${member.user.id}>\n┃👥 Total de usuarios: ${totalMembers}\n╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ✦`;
+            const textt = `*╭┈⊰* ${member.guild.name} *⊰┈ ✦*\n┃BIENVENIDO(A)\n┃ <@${member.user.id}>\n┃Total de usuarios: ${totalMembers}\n╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ `;
 
             welcomeChannel.send({ content: textt, files: [avatarUrl || imgWel1] });
         } else {
@@ -152,7 +152,7 @@ client.on('guildMemberRemove', member => {
             const avatarUrl = member.user.displayAvatarURL({ dynamic: true, size: 1024 });
             const imgBye = 'https://qu.ax/yqlE.jpg'; //Imagen de respaldo en caso de que no haya avatar, pueden cambiarla.
             const farewellImage = avatarUrl || imgBye; 
-            const textt2 = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰\n┃ <@${member.user.id}>\n┃ *NO LE SABE AL GRUPO, CHAO!!* 😎\n╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰`;
+            const textt2 = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰\n┃ <@${member.user.id}>\n┃ *salió del servidor*\n╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰`;
 
             farewellChannel.send({ content: textt2, files: [farewellImage] });
         } else {
