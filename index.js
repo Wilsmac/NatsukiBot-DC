@@ -165,6 +165,7 @@ const newPermissions = newMember.permissions;
 if (!oldPermissions.has('ADMINISTRATOR') && newPermissions.has('ADMINISTRATOR')) {
 message.reply(`[ PROMOTE ]\n${newMember.user.tag} ha sido asignado como nuevo administrador.`);
 }
+});
 
 //Evento para detectar cuando alguien deja de ser administrador
 client.on('guildMemberUpdate', (oldMember, newMember) => {
