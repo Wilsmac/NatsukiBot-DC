@@ -6,12 +6,10 @@ import { fileURLToPath } from 'url'
 
 //---------[ PROPIETARIO/OWNER ]---------
 global.owner = [
-["1008834879858946170"],
-["750524319876120657"],
-["1132831529190559744"]]
+[""]]
 
 //---------[ Token ]---------
-global.botToken = "" //Sacar tu token aqui: https://discord.com/developers/applications
+global.botToken = "" //Token del bot
 
 //---------[ NOMBRE/INFO ]---------
 global.wm = "NatsukiBot"
@@ -78,15 +76,15 @@ global.imagen2 = fs.readFileSync('./media/menu2.jpg')
 global.imagen3 = fs.readFileSync('./media/menu3.jpg')
 
 //---------[ ENLACES ]---------
-global.md = 'https://github.com/elrebelde21/NovaBot-DS'
-global.yt = 'https://www.youtube.com/@elrebelde.21'
-global.tiktok = 'tiktok.com/@elrebelde21'
-global.fb = 'https://www.facebook.com/elrebelde21'
-global.faceb = 'https://facebook.com/groups/872989990425789/'
-global.paypal = 'https://paypal.me/OficialGD' 
+global.md = 'https://github.com/Wilsmac'
+global.yt = 'https://www.youtube.com/@wilmer.ofc'
+global.tiktok = 'tiktok.com/@teamnsk_1'
+global.fb = 'https://www.facebook.com/'
+global.faceb = 'https://facebook.com/groups/87298999042589/'
+global.paypal = 'https://paypal.me/wilmermacu1' 
 
-global.nna = "https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A" //Canal de WhatsApp "Infinity-wa"
-global.nn = "https://discord.gg/zvKgtc2RBc" //Servidor de discord "SkyUltraPlus" 
+global.nna = "https://whatsapp.com/channel/0029Va4QjH7DeON0ePwjS1A" //Canal de WhatsApp ""
+global.nn = "https://discord.gg/zvKgtc2Rc" //Servidor de discord "" 
 global.redes = [md, yt, tiktok, fb, paypal, nn]
 global.img = [imagen1, imagen2, imagen3]
 
